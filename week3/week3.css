@@ -1,0 +1,122 @@
+h1{
+   font-size: 60px;
+   font-stretch: expanded;
+   letter-spacing: 1em;
+   border-radius: 50%;
+   background: blueviolet;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.blink-image {
+    animation: blink 2s infinite ease-in-out;
+    margin-right: 20px;
+}
+
+
+.blink-image2 {
+    position: relative;
+    top: 200px; 
+    left: 150px; 
+    animation: blink 2s infinite ease-in-out;
+    animation-delay: 1s; 
+
+}
+
+.blink-image3 {
+     position: relative;
+    top: 150px; 
+    left: 200px; 
+    animation: blink 2s infinite ease-in-out;
+    animation-delay: 1.5s; 
+
+}
+
+ .blink-image4 {
+ float: right;
+  animation: blink 2s infinite ease-in-out;
+    animation-delay: 2s; 
+
+}
+
+.blink-image5{
+    position: relative;
+    top: -500px;
+    left: 500px;
+    animation: blink 2s infinite ease-in-out;
+    animation-delay: 1.7s; 
+   
+
+}
+
+hr{
+   width: 90%;
+     border-bottom: 7px solid black;
+}
+
+h2{
+    margin-top: 30px;
+    font-family: Courier New;
+    text-align: center;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .image2 {
+  opacity: 1;
+}
+
+.image-container1 {
+  position: relative;
+  display: inline-block;
+}
+
+.image4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container1:hover .image4 {
+  opacity: 1;
+}
+
+.image-container2 {
+  position: relative;
+  display: inline-block;
+}
+
+.image6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container2:hover .image6 {
+  opacity: 1;
+}
